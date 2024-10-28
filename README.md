@@ -16,6 +16,6 @@ The goal is to simulate a listing feature similar to what one might find on a va
 ## Technologies Used
 
 - **React**: For building user interfaces.
-- **JavaScript **: Utilizing modern JavaScript features.
+- **JavaScript**: Utilizing modern JavaScript features.
 - **CSS**: For styling the application.
 - **HTML**: For structuring the application.
