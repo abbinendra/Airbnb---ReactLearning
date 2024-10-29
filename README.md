@@ -1,6 +1,6 @@
 # Airbnb Mini Project
 
-- [Live View](https://abbinendra.github.io/Tic-tac-Toe-/)
+- [Live View](https://abbinendra.github.io/Airbnb-ReactLearning/)
 
 ## Description
 
