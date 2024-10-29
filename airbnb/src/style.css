@@ -24,6 +24,7 @@
 .hero{
     height:50%;
     padding:2rem;
+    padding-bottom: 0rem;
     display:flex;
     flex-direction: column;
 }
@@ -35,33 +36,31 @@
 .hero>h4{
     margin-top: 5px;
     font-weight: 250;
-    font-size: 1.3em;
+    font-size: 1.em;
 }
-@media(min-width:920px){
-    .cont{
-        height:3rem;
-    }
+@media(max-width:680px){
     .card{
-        width:14%;
+        width:60px;
     }
 }
 .card{
+    position: relative;
     margin-left: 1.25rem;
     border-radius: 0.2rem;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    width:24%;
+    width:200px;
+    height:327px;
     font-size:1rem;
     padding: 0.625rem;
     cursor: pointer;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
 }
 .card:hover {
-    transform: translateY(-0.625rem);
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+    transform: translateY(-0.425rem);
+    box-shadow: 0 0 2px 8px 25px rgba(0, 0, 0, 0.9);
     background-color: rgba(245, 245, 245, 0.801);
 }
 .crdimg{
@@ -92,12 +91,15 @@
     font-weight:bold;
 }
 .cont{
-    height:7rem;
+    height:auto;
     display:flex;
     align-items: center;
     width:100%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-bottom: 3rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 .each{
     margin-top:0.25rem;

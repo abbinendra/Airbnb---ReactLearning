@@ -1,11 +1,13 @@
 {
   "name": "react-learn",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel airbnb/public/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "parcel airbnb/public/index.html",
+  "build": "parcel build airbnb/public/index.html --public-url /Airbnb-ReactLearning/",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,6 +18,7 @@
     "react-scripts": "^5.0.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "parcel": "^2.12.0",
     "process": "^0.11.10"
   }

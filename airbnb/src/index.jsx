@@ -6,11 +6,7 @@ import Card from './card'
 import Data from './data'
 
 export default function Index(){
-    const cards=Data.map(item=>{
-        return(
-            <Card key={item.id} img={item.coverImg} rating={item.stats.rating} rno={item.stats.reviewCount} location={item.location} title={item.title} price={item.price}/>
-        )
-    })
+    const cards=Data.map(item=>{return(<Card key={item.id} item={item}/*item={item} can also be written as {...item}and then removing .item from each calling from card.js*//>)})
     return(
         <div>
             <Navbar/>
