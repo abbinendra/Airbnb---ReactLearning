@@ -1,5 +1,7 @@
 # Airbnb Mini Project
 
+- [Live View](https://abbinendra.github.io/Tic-tac-Toe-/)
+
 ## Description
 
 Basically the focus was on map() function and how to divide a task into components and then importing and working on them rather than hard coding.
